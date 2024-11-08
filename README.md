@@ -28,23 +28,34 @@ Los componentes principales incluyen:
 
 ## PASOS PARA LA INSTALACION
 1. Clonar el repositorio
+
 Clonar el repositorio en una maquina local
 
 Creamos una carpeta dentro de Documents llamada 
+
 $ mkdir PROYECTO_TL_07112024
+
 $ cd PROYECTO_TL_07112024
+
 $  git clone https://github.com/sebastianVP/restaurante_avp.git
 
 2. Creacion del entorno virtual
+
 Debo estar ubicado en Documents
+
 $ cd PROYECTO_TL_07112024
+
 $ python -m venv restaurante
 
 3. Instalamos algunas dependencias
+
 $ pip install django==5.1
+
 $ pip install django-crispy-forms
 
 4.  Entre al repositorio
 $ cd PROYECTO_TL_07112024
+
 $ cd restaurante_avp
+
 $ pip freeze > requirements.txt
