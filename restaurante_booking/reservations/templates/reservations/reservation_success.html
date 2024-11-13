@@ -1,2 +1,9 @@
-<h1> Reserva Realizada con Exitos</h1>
-<p> Gracias por reservar. Nos vemos pronto.</p>
+{% extends "base.html" %}
+{% block content %}
+<div class="jumbotron text-center">
+    <h1 class="display-4">Reserva Confirmada!</h1>
+    <p class="lead">Gracias por reservar con nosotros. Te esperamos pronto</p>
+    <hr class="my-4">
+    <a href="{% url 'restaurant_list' %}" class="btn btn-primary">Volver a la lista de Restaurantes</a>
+</div>
+{% endblock %}
