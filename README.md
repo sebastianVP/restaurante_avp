@@ -64,6 +64,9 @@ $ pip freeze > requirements.txt
 ## DESARROLLO PARA HACER MAS AGRADABLE VISUALMENTE E INTUITIVA LA APP
 ---
 Paso 1: Agregar Bootstrap al proyecto
+
 Paso 2: Diseñar las plantillas con la ayuda de Bootstrap
+
 Paso 3: Crear una base.html
+
 Paso 4: Ajusta formularios de Django con Bootstap
